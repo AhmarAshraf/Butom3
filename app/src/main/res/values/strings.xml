@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Butom3</string>
+    <string name="home">Home</string>
+    <string name="bag">Bag</string>
+    <string name="account">Account</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accident">accident</string>
+    <string name="robbery_text">Robbery</string>
+    <string name="house_fire_text">House Fire</string>
+    <string name="disaster_text">Disaster</string>
+    <string name="type_a_message">Hey I need Ur Help</string>
+    <string name="menu_freinds">ICE Friends</string>
+    <string name="menu_blood">Blood Donors</string>
+    <string name="army_text">Army Number</string>
+    <string name="bomb_disposal_text">bmb_disposal</string>
+    <string name="police_text">police help line</string>
+    <string name="fire_birgade">fire_birgade</string>
+    <string name="counter_terorism_text">Counter_terorism_help_line</string>
+    <string name="text_home">Home Fragment</string>
+    <string name="text_notifications">Notifications Fragment</string>
+    <string name="text_search">Search Fragment</string>
+
+    <string name="pin_content_desc">PIN input field</string>
+    <string name="pin_label_text">PIN</string>
+
+
+
+</resources>

@@ -1,0 +1,210 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:background="#ffffff"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="174dp"
+        android:background="#ffffff"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="187dp"
+            android:layout_height="163dp"
+            android:background="#ffffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/accidentHolder"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_fire_birgade" />
+
+            <TextView
+                android:id="@+id/aciidentTextPlacer"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:text="@string/fire_birgade"
+                android:textColor="#000000"
+                android:textSize="16dp"
+
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/robberyImageHolder"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_counter_tersorism" />
+
+            <TextView
+                android:id="@+id/robberyPlace"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:text="@string/counter_terorism_text"
+                android:textColor="#000000"
+                android:textSize="16dp"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="181dp"
+        android:background="#ffffff"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="187dp"
+            android:layout_height="163dp"
+            android:background="#ffffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/policeImageHolder"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_police" />
+
+            <TextView
+                android:id="@+id/namePlacer5"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:text="@string/police_text"
+                android:textColor="#000000"
+                android:textSize="16dp"
+
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/disasterImageHolder3"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_disaster" />
+
+            <TextView
+                android:id="@+id/namePlace3"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:text="@string/disaster_text"
+                android:textColor="#000000"
+                android:textSize="16dp"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="181dp"
+        android:background="#ffffff"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="187dp"
+            android:layout_height="163dp"
+            android:background="#ffffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/bombDisaposalImageHolder12"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_disposal_bomb" />
+
+            <TextView
+                android:id="@+id/namePlacer512"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:text="@string/bomb_disposal_text"
+                android:textColor="#000000"
+                android:textSize="16dp"
+
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:elevation="5dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/disasterImageHolder31"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_army" />
+
+            <TextView
+                android:id="@+id/namePlace32"
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:text="@string/army_text"
+                android:textColor="#000000"
+                android:textSize="16dp"
+
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
